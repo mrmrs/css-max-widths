@@ -6,8 +6,7 @@
   "keywords": [
     "css",
     "oocss",
-    "",
-    ""
+    "max-widths"
   ],
   "css-max-widths": {
     "type": "git",
