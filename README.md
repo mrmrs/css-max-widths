@@ -20,7 +20,8 @@ View on [npm](https://www.npmjs.org/package/css-max-widths)
 ## File Size
 
 1.0K max-widths.css
-821B max-widths.min.css
+821B max-widths.min.css 
+200B minified and gzipped
 
 ## The Code
 ```
