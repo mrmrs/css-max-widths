@@ -1,7 +1,7 @@
 {
   "name": "css-max-widths",
   "style": "max-widths.css",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "http://github.com/mrmrs/css-max-widths",
   "description": "Css module of single purpose classes for max widths",
   "keywords": [
