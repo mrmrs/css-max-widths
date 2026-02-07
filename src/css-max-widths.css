@@ -9,11 +9,11 @@
 .mx-wi-fill { max-width: fill-available; }
 
 @media screen and (min-width: 48em) {
-  .mx-wi-none-ns { max-width: none; }
-  .mx-wi-max-ns  { max-width: max-content; }
-  .mx-wi-min-ns  { max-width: min-content; }
-  .mx-wi-fit-ns  { max-width: fit-content; }
-  .mx-wi-fill-ns { max-width: fill-available; }
+  .mx-wi-none-s { max-width: none; }
+  .mx-wi-max-s  { max-width: max-content; }
+  .mx-wi-min-s  { max-width: min-content; }
+  .mx-wi-fit-s  { max-width: fit-content; }
+  .mx-wi-fill-s { max-width: fill-available; }
 }
 
 @media screen and (min-width:48em) and (max-width: 64em) {
