@@ -1,34 +1,85 @@
-/*
-   MAX WIDTHS - KEYWORDS
-*/
-
-.mx-wi-none { max-width: none; }
-.mx-wi-max  { max-width: max-content; }
-.mx-wi-min  { max-width: min-content; }
-.mx-wi-fit  { max-width: fit-content; }
-.mx-wi-fill { max-width: fill-available; }
-
-@media screen and (min-width: 48em) {
-  .mx-wi-none-ns { max-width: none; }
-  .mx-wi-max-ns  { max-width: max-content; }
-  .mx-wi-min-ns  { max-width: min-content; }
-  .mx-wi-fit-ns  { max-width: fit-content; }
-  .mx-wi-fill-ns { max-width: fill-available; }
+.mx-wi-none {
+  max-width: none;
 }
 
-@media screen and (min-width:48em) and (max-width: 64em) {
-  .mx-wi-none-m { max-width: none; }
-  .mx-wi-max-m  { max-width: max-content; }
-  .mx-wi-min-m  { max-width: min-content; }
-  .mx-wi-fit-m  { max-width: fit-content; }
-  .mx-wi-fill-m { max-width: fill-available; }
+.mx-wi-max {
+  max-width: max-content;
 }
 
-@media screen and (min-width: 64em) {
-  .mx-wi-none-l { max-width: none; }
-  .mx-wi-max-l  { max-width: max-content; }
-  .mx-wi-min-l  { max-width: min-content; }
-  .mx-wi-fit-l  { max-width: fit-content; }
-  .mx-wi-fill-l { max-width: fill-available; }
+.mx-wi-min {
+  max-width: min-content;
 }
 
+.mx-wi-fit {
+  max-width: fit-content;
+}
+
+.mx-wi-fill {
+  max-width: fill-available;
+}
+
+@media screen and (width >= 32em) {
+  .mx-wi-none-s {
+    max-width: none;
+  }
+
+  .mx-wi-max-s {
+    max-width: max-content;
+  }
+
+  .mx-wi-min-s {
+    max-width: min-content;
+  }
+
+  .mx-wi-fit-s {
+    max-width: fit-content;
+  }
+
+  .mx-wi-fill-s {
+    max-width: fill-available;
+  }
+}
+
+@media screen and (width >= 48em) {
+  .mx-wi-none-m {
+    max-width: none;
+  }
+
+  .mx-wi-max-m {
+    max-width: max-content;
+  }
+
+  .mx-wi-min-m {
+    max-width: min-content;
+  }
+
+  .mx-wi-fit-m {
+    max-width: fit-content;
+  }
+
+  .mx-wi-fill-m {
+    max-width: fill-available;
+  }
+}
+
+@media screen and (width >= 96em) {
+  .mx-wi-none-l {
+    max-width: none;
+  }
+
+  .mx-wi-max-l {
+    max-width: max-content;
+  }
+
+  .mx-wi-min-l {
+    max-width: min-content;
+  }
+
+  .mx-wi-fit-l {
+    max-width: fit-content;
+  }
+
+  .mx-wi-fill-l {
+    max-width: fill-available;
+  }
+}
