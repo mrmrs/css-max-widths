@@ -8,7 +8,7 @@
 .mx-wi-fit  { max-width: fit-content; }
 .mx-wi-fill { max-width: fill-available; }
 
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 32em) {
   .mx-wi-none-s { max-width: none; }
   .mx-wi-max-s  { max-width: max-content; }
   .mx-wi-min-s  { max-width: min-content; }
@@ -16,7 +16,7 @@
   .mx-wi-fill-s { max-width: fill-available; }
 }
 
-@media screen and (min-width:48em) and (max-width: 64em) {
+@media screen and (min-width:48em) {
   .mx-wi-none-m { max-width: none; }
   .mx-wi-max-m  { max-width: max-content; }
   .mx-wi-min-m  { max-width: min-content; }
@@ -24,7 +24,7 @@
   .mx-wi-fill-m { max-width: fill-available; }
 }
 
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 96em) {
   .mx-wi-none-l { max-width: none; }
   .mx-wi-max-l  { max-width: max-content; }
   .mx-wi-min-l  { max-width: min-content; }
